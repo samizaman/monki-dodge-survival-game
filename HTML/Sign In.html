@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Monki Dodge / Sign In</title>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="/CSS/stylesheet.css">
+   <link rel="icon" type="image/png" href="/Images/gorilla.png">
+</head>
+
+<body>
+   <header>
+      <img class="logo" src="/Images/MONKI DODGE.svg" alt="logo">
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li><a class="current-page" href="Home.html">Home</a></li>
+          <li><a href="How to Play.html">How to Play</a></li>
+          <li><a href="Leaderboard.html">Leaderboard</a></li>
+          <li><a href="Sign In.html" id="signin">Sign In</a></li>
+          <li class="border"><a href="Register.html" class="register">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    </nav>
+
+<div id="page-container">
+   <div class="signin-container">
+      <div class="title">LOGIN</div>
+         <form action="#">
+            <div class="user-details">
+               <div class="input-box">
+                  <span class="details">Username</span>
+                  <input type="text" id="login-username" name="username" required>
+                  <br>
+                  <br>
+
+                  <div class="input-box">
+                     <span class="details">Password</span>
+                     <input type="password" id="login-password" name="password" required>
+                  </div>
+                  <div class="button">
+                     <input type="submit" value="Sign In" onclick="checkLogin()">
+                  </div>
+         </form>
+      </div>
+   </div>
+<script src="/JS/Sign In.js"></script>
+
+ 
+</body>
+
+<footer>
+   <p style="
+   position: fixed;
+    height: 50px;
+    bottom: 0px;
+    right: 300px;
+    margin-bottom: 0px;
+    color: grey;
+  letter-spacing: 3px;
+  text-transform: uppercase;">
+   Copyright &copy; MONKI DODGE 2021 | Privacy Policy | Terms of service</p>
+</footer>
+
+</html>
